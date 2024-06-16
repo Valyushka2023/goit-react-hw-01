@@ -1,0 +1,79 @@
+.profile {
+    display: flexbox;
+    width: 300px;
+    height: 300px;
+    margin: auto; 
+    border: 2px solid #0c0d0e;
+    border-radius: 4px;
+    background-color: rgb(212, 208, 208);
+    margin-bottom: 40px;
+}
+
+.card {
+    padding-top: 10px;
+    border-bottom: 2px solid #ddd; 
+    background-color: floralwhite;
+}
+
+.image { 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.avatar {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: dimgrey;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700; 
+    text-align: center;
+    color: rgb(23, 23, 235);
+}
+
+.teg {
+    font-size: 18px;
+    text-align: center;
+    color: dimgrey;
+    
+}
+.location {
+    font-size: 18px;
+    text-align: center;
+    color: dimgrey;
+}
+
+.stats {
+    display: flex;
+    list-style-type: none; 
+    padding-left: 0;
+    margin: auto;
+}
+
+.statItem {
+    display: flex; 
+    flex-direction: column; 
+    row-gap: 4px;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    border: 1px solid #ddd; 
+}
+
+.statLabel {
+    font-size: 18px;
+    color: black;
+   
+}
+
+.statValue {
+    font-size: 16px;
+    font-weight: 700; 
+}
+
